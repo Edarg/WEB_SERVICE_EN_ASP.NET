@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;servicio_web_gtSoap&quot;&gt;&lt;security mode=&quot;Transport&quot; /&gt;&lt;/Data&gt;" bindingType="basicHttpBinding" name="servicio_web_gtSoap" />
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;servicio_web_gtSoap1&quot; /&gt;" bindingType="basicHttpBinding" name="servicio_web_gtSoap1" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;https://localhost:44372/servicio_web_gt.asmx&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;servicio_web_gtSoap&quot; contract=&quot;ServicioChamoy.servicio_web_gtSoap&quot; name=&quot;servicio_web_gtSoap&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;https://localhost:44372/servicio_web_gt.asmx&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;servicio_web_gtSoap&quot; contract=&quot;ServicioChamoy.servicio_web_gtSoap&quot; name=&quot;servicio_web_gtSoap&quot; /&gt;" contractName="ServicioChamoy.servicio_web_gtSoap" name="servicio_web_gtSoap" />
+  </endpoints>
+</configurationSnapshot>

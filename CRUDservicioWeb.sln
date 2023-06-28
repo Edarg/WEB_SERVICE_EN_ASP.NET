@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDservicioWeb", "CRUDservicioWeb\CRUDservicioWeb.csproj", "{97501F77-E770-466D-A118-7EBA6D0FADD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CONSUMOWEB", "CONSUMOWEB\CONSUMOWEB.csproj", "{B31E5D3D-EA6D-4F1A-99B3-5B1EF89A3555}"
+	ProjectSection(ProjectDependencies) = postProject
+		{97501F77-E770-466D-A118-7EBA6D0FADD3} = {97501F77-E770-466D-A118-7EBA6D0FADD3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97501F77-E770-466D-A118-7EBA6D0FADD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97501F77-E770-466D-A118-7EBA6D0FADD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97501F77-E770-466D-A118-7EBA6D0FADD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97501F77-E770-466D-A118-7EBA6D0FADD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B31E5D3D-EA6D-4F1A-99B3-5B1EF89A3555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31E5D3D-EA6D-4F1A-99B3-5B1EF89A3555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31E5D3D-EA6D-4F1A-99B3-5B1EF89A3555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31E5D3D-EA6D-4F1A-99B3-5B1EF89A3555}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEF2D752-E397-4C22-B665-904FA153345B}
+	EndGlobalSection
+EndGlobal
